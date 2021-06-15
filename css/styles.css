@@ -1,30 +1,113 @@
 
-
-
-.logo {
-font-family: Raleway;
-font-size: 26px;
+/* root {
+    --text-color:#212121  /*черный*/
+    --color-link:#2196F3  /*голубой*/
+    --color-tipe:#757575  /*серый*/
+    --main-color:#FFFFFF  /*белый*/
 }
 
-@font-face {
-    font-family: "RalewayBold";
-    src: url("../fonts/Raleway/") format("truetype");
+*/
+
+
+body {
+   font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+   color: #212121;
+}
+
+.logo
+{
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
     font-style: normal;
-    font-weight: normal;
+    
+}
+.logo-accent {
+    color: #2196F3;
 }
 
-@font-face {
-    font-family: "RobotoRegular";
-    src: url("../fonts/RalewayBold.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+a {
+    text-decoration: none;
+    /* Убираем подчеркивание */
 }
 
-.site-nav {
-    font-family: RobotoRegular;
-    list-style: none;
+li {
+    list-style-type: none;
+    /* Убираем маркеры */
+}
+ 
+.header-adress {
+    font-weight: 500;
+    Line-height: 14px;
+ line-height: 16px;
+}
+
+.test-link:hover,
+.header-adress:hover,
+.footer-adress:hover,
+.test-link:focus,
+.header-adress:focus,
+.footer-adress:focus
+{
+    color: #2196F3;
+}
+
+.test-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.header-adress {
+    color: #757575;
+}
+ 
+.main-title {
+    color: #FFFFFF;
+     font-weight: 900;
+     font-size: 44px;
+     line-height: 60px;
 }
 
 .button {
-list-style: none;
+color:#FFFFFF;
+background-color:#2196F3;
+position: absolute;
+width: 200px;
+height: 50px;
 }
+
+.features-title, h3 {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 18px;
+}
+
+.features-subject {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.command, 
+.footer-nav {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+
+.footer-adress {
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
