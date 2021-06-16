@@ -10,17 +10,20 @@
 
 
 body {
-   font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+   font-family: 'Roboto', sans-serif;
    color: #212121;
 }
 
 .logo
 {
+    position: absolute;
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
-    line-height: 30px;
+    line-height: 1,15;
     font-style: normal;
+    color: #212121;
+    letter-spacing: 0.03em;
     
 }
 .logo-accent {
@@ -40,7 +43,9 @@ li {
 .header-adress {
     font-weight: 500;
     Line-height: 14px;
- line-height: 16px;
+ line-height: 1,14;
+ letter-spacing: 0.02em;
+ 
 }
 
 .test-link:hover,
@@ -56,10 +61,13 @@ li {
 .test-link {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1,14;
+    color: #212121;
+    letter-spacing: 0.02em;
 }
 
-.header-adress {
+.header-adress,
+.command {
     color: #757575;
 }
  
@@ -67,40 +75,48 @@ li {
     color: #FFFFFF;
      font-weight: 900;
      font-size: 44px;
-     line-height: 60px;
+     line-height: 1,5;
+     text-align: center;
+     letter-spacing: 0.06em;
 }
 
-.button {
+.main-name {
+    background-color: #2F303A;
+}
+
+.btn-order {
 color:#FFFFFF;
 background-color:#2196F3;
 position: absolute;
-width: 200px;
-height: 50px;
 }
 
 .features-title, h3 {
    font-weight: 500;
    font-size: 16px;
-   line-height: 18px;
+   line-height: 1,12;
+   letter-spacing: 0.03em;
 }
 
 .features-subject {
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1,71;
+    letter-spacing: 0.03em;
 }
 
 h2 {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1,16;
 }
+
 
 .command, 
 .footer-nav {
     font-weight: 400;
     font-size: 16px;
-    line-height: 18px;
+    line-height: 1,12;
+    letter-spacing: 0.03em;
 }
 
 
@@ -108,6 +124,44 @@ h2 {
     color: #FFFFFF;
     font-style: normal;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1,71;
+    letter-spacing: 0.03em;
 }
+
+
+
+.top-menu {
+font-weight: 500;
+Line-height: 16px;
+line-height: 1,62;
+letter-spacing: 0.03em;
+}
+
+.top-menu:hover,
+.top-menu:focus {
+color: #FFFFFF;
+background-color: #2196F3;
+}
+
+.btn-order,
+.top-menu {
+cursor: pointer;
+}
+
+.picture-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.subscribe{
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,87;
+    letter-spacing: 0.03em;
+}
+
+
 
