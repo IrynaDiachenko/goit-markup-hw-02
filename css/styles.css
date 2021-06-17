@@ -1,9 +1,11 @@
 
- root {
-    --text-color;#212121;  /*коричневый*/
-    --color-link:#2196F3;  /*голубой*/
-    --color-tipe:#757575;  /*серый*/
-    --main-color:#FFFFFF;  /*белый*/
+ :root {
+    --text-color: #212121;  /*коричневый*/
+    --color-link: #2196F3;  /*голубой*/
+    --color-tipe: #757575;  /*серый*/
+    --main-color: #FFFFFF;  /*белый*/
+    --color-font: #2F303A;  /*темно серый*/
+
 }
 
 
@@ -16,7 +18,7 @@ body {
 
 .logo
 {
-    position: absolute;
+    
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
@@ -39,6 +41,8 @@ li {
     list-style-type: none;
     /* Убираем маркеры */
 }
+
+
  
 .header-adress {
     font-weight: 500;
@@ -71,7 +75,7 @@ li {
     color: var(--color-tipe);
 }
  
-.main-hero {
+.main-title {
     color: var(--main-color);
      font-weight: 900;
      font-size: 44px;
@@ -81,15 +85,15 @@ li {
      text-transform: uppercase;
 }
 
-.main-name {
-    background-color: #2F303A;
+.title {
+    background-color: var(--color-font);
 }
 
 .btn-order {
 color: var(--main-color);
-background-color: ver(--color-link);
-position: absolute;
+background-color: var(--color-link);
 }
+
 
 .features-title, h3 {
    font-weight: 500;
@@ -150,6 +154,10 @@ background-color: var(--color-link);
 cursor: pointer;
 }
 
+.hero {
+    background-color: #F5F4FA;
+}
+
 .picture-name {
     font-weight: 700;
     font-size: 18px;
@@ -165,5 +173,11 @@ cursor: pointer;
     letter-spacing: 0.03em;
 }
 
+.footer-contacts {
+    background-color: var(--color-font);
+}
 
+footer .logo {
+    color: var(--main-color);
+}
 
